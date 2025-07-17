@@ -215,7 +215,7 @@ def get_javid():
 horas_insuas = {
     "Terras de Fate - David":36,
     "Rigueira - Madanelo": 36,
-    "Pomar - nome do dono":12,
+    "Pomar - Carlos Xavier":12,
     "Rigueira - Rosa":12,
     "Rigueira - Joaquim Lumbrem": 12,
     "nome da terra - Nídia":12,
