@@ -56,4 +56,4 @@ fonte dos dados de consortes:
   -Ínssuas:
     - Alfredo Machado Pereira da Silva
     - Maria de Graça da Silva Machado
-    - Rosa ...
+    - Rosa Afonso Machado
