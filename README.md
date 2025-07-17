@@ -52,7 +52,7 @@ Este sistema elimina a necessidade de cálculos manuais dos turnos de consortes 
 criador.: Gonçalo Jorge Barbosa Pereira
 fonte dos dados de consortes:
   -Javid:
-    -escitura de partilha de água de 1991
+    -escritura de partilha de água do ano 1991
   -Ínssuas:
     - Alfredo Machado Pereira da Silva
     - Maria de Graça da Silva Machado
