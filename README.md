@@ -1,54 +1,54 @@
-# Pocas
+# Regadios tradicionais de Quintiães
 Neste repositório está presente o seguinte:
 pocas.py:
 Um documento py (linguagem Python) com um script.
 Este projeto implementa um sistema de consulta e exportação de turnos para as poças, automatizando a gestão dos tempos atribuídos a cada consorte ao longo do calendário anual. É uma ferramenta orientada a comunidades rurais ou entidades gestoras que necessitam de planificar de forma rigorosa a utilização partilhada de recursos hídricos.
 
----Descrição Geral---
+## Descrição Geral
 O sistema permite:
-  -Listar consortes e respetivos turnos, com cálculo preciso das datas e horas de início/fim.
-  -Consultar qual consorte está ativo num determinado dia/hora.
-  -Exportar os turnos para ficheiros CSV, para posterior análise ou integração noutros sistemas.
+-Listar consortes e respetivos turnos, com cálculo preciso das datas e horas de início/fim.
+-Consultar qual consorte está ativo num determinado dia/hora.
+-Exportar os turnos para ficheiros CSV, para posterior análise ou integração noutros sistemas.
 Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada consorte, iniciando-se em datas específicas do ano (definidas conforme a tradição ou regras locais).
 O código está estruturado para suportar facilmente outras poças ou alterações nos tempos de consórcio.
 
----Estrutura do Cálculo para as poças já implementadas---
--Poça Javid
+## Estrutura do Cálculo para as poças já implementadas
+-**Poça Javid**:
   -Início do ciclo: Terça-feira mais próxima de 29 de junho às 21:10.
   -Unidades de tempo: minutos.
   -Ciclo composto por 12 turnos de duração variável.
--Poça Ínsuas
+-**Poça Ínsuas**
   -Início do ciclo: Primeiro domingo de julho - 1 dia (sábado) às 21:00.
   -Unidades de tempo: horas.
   -Ciclo composto por múltiplos turnos com durações entre 12 e 36 horas.
 O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de dezembro).
 
----Funcionalidades---
+## Funcionalidades
 -O utilizador escolhe a poça
 -Consultar Consortes
-  -listar a um específico consorte (escolhido pelo utilizador) os tempos que este toma posse e devolve em todos os ciclos. Com a possibilidade de exportar para CSV.
-  -Consulta do consorte que tem a posse quando é escolhido o dia e a hora.
+-listar a um específico consorte (escolhido pelo utilizador) os tempos que este toma posse e devolve em todos os ciclos. Com a possibilidade de exportar para CSV.
+-Consulta do consorte que tem a posse quando é escolhido o dia e a hora.
 
----Requisitos---
+## Requisitos
 Python 3.8+
 Bibliotecas:
   -datetime (padrão)
   -csv (padrão)
   -unicodedata (padrão)
 
----Notas Importantes--
+## Notas Importantes
 O caminho para exportação de CSV deve ser introduzido manualmente e deve existir no sistema de ficheiros.
 As datas de início dos ciclos são calculadas dinamicamente com base no ano atual.
 
----Futuro---
+## Futuro
 Interface gráfica para facilitar a utilização por utilizadores não técnicos.
 Integração com bases de dados para gestão multi-ano e multi-poça.
 Validação automática de sobreposição de turnos e alertas para conflitos
 
----Conclusão---
+## Conclusão
 Este sistema elimina a necessidade de cálculos manuais dos turnos de consortes e oferece uma solução confiável e repetível para comunidades que partilham poças ou outros recursos comuns. A sua simplicidade torna-o ideal para implementação local, sem necessidade de infraestrutura complexa.
 
----Créditos---
+## Créditos
 criador.: Gonçalo Jorge Barbosa Pereira
 fonte dos dados de consortes:
   -Javid:
