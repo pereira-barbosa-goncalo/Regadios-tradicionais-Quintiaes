@@ -49,7 +49,8 @@ Este sistema elimina a necessidade de cálculos manuais dos turnos de consortes 
 - **Autor**: Gonçalo Pereira
 
 - **Fontes dos dados de consortes**:
-  - **Javid**: Escritura de partilha de água do ano de 1991.
+  - **Javid**:
+    - Escritura de partilha de água do ano de 1991.
   - **Ínsuas**:
     - Alfredo Silva
     - Maria Machado
