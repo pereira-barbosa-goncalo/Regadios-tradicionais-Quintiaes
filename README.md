@@ -56,3 +56,7 @@ Este sistema elimina a necessidade de cálculos manuais dos turnos de consortes 
     - Rosa Machado
 
 ## Citação
+Na utilização deste software, é favor citar de acordo com o documento [CITATION](citação) presente neste repositório ou de acordo com os seguintes exemplos:
+### formato APA
+Pereira, G. (2025). Sistema de Consulta dos regadios tradicionais de Quintiães (Version 1.0.3) [Computer software]. https://github.com/pereira-barbosa-goncalo/Regadios-tradicionais-Quintiaes
+### formato BibTeX
