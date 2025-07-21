@@ -50,10 +50,12 @@ O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de de
 Este sistema elimina a necessidade de cálculos manuais dos turnos de consortes e oferece uma solução confiável e repetível para comunidades que partilham poças ou outros recursos comuns. A sua simplicidade torna-o ideal para implementação local, sem necessidade de infraestrutura complexa.
 
 ## Créditos
-- **Criador**: Gonçalo Jorge Barbosa Pereira
-- **Fonte dos dados de consortes**:
-  - **Javid**: Escritura de partilha de água do ano 1991
+
+- **Criador**: Gonçalo Pereira
+
+- **Fontes dos dados de consortes**:
+  - **Javid**: Escritura de partilha de água do ano de 1991.
   - **Ínsuas**:
-    - Alfredo Machado Pereira da Silva
-    - Maria de Graça da Silva Machado
-    - Rosa Afonso Machado
+    - Alfredo Silva
+    - Maria Machado
+    - Rosa Machado
