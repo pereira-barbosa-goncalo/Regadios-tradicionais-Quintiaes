@@ -30,7 +30,7 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
   - 12º Manuel Viera Cardoso": 3040 minutos (50h40m)
 
 ### Poça Ínsuas
-- **Início do ciclo**: Primeiro domingo de julho - 1 dia (sábado) às 21:00.
+- **Início do ciclo**: Primeiro domingo de julho, mas no sábado às 21:00.
 - **Unidades de tempo**: Horas.
 - **Ciclo composto por**: Múltiplos turnos com durações entre 12 e 36 horas.
   - Terras de Fate - David Fernandes - 36 horas
