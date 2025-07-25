@@ -21,6 +21,19 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
 - **Início do ciclo**: Primeiro domingo de julho - 1 dia (sábado) às 21:00.
 - **Unidades de tempo**: Horas.
 - **Ciclo composto por**: Múltiplos turnos com durações entre 12 e 36 horas.
+  - Terras de Fate - David Fernandes - 36 horas
+  - Rigueira - António Pereira - 36 horas
+  - Pomar - Carlos Xavier - 12 horas
+  - Rigueira - Rosa Machado - 12 horas
+  - Rigueira - Joaquim Lumbrem - 12 horas
+  - Rigueira - Nídia - 12 horas
+  - Rigueira - Domingos Coutinho - 12 horas
+  - Compra - Rosa Machado - 12 horas
+  - Rigueira - Cândido - 12 horas
+  - Rigueira - Domingos Coutinho - 12 horas
+  - Sepeira - Silvério - 24 horas
+  - Ínssuas de baixo - 24 horas
+  - Rigueira - Ana do "Rua" - 24 horas
 
 O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de dezembro).
 
