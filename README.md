@@ -16,6 +16,18 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
 - **Início do ciclo**: Terça-feira mais próxima de 29 de junho às 21:10.
 - **Unidades de tempo**: Minutos.
 - **Ciclo composto por**: 12 turnos de duração variável.
+  - 1º Maria Amélia Machado Pereira do Vale - 2910 minutos (48h30m)
+  - 2º Manuel Viera Cardoso - 530 minutos (8h50m)
+  - 3º José Viera Rego - 870 minutos (14h30m)
+  - 4º Carolina Fernandes do Vale": 570 minutos (9h30m)
+  - 5º José Viera Rego - 870 minutos (14h30m)
+  - 6º Carolina Fernandes do Vale": 2880 minutos (48h)
+  - 7º Maria Amélia Machado Pereira do Vale - 3690 minutos (61h30m)
+  - 8º Joaquim Martins da Silva - 1800 minutos (30h)
+  - 9º António de Sousa Silva (Pita)": 120 minutos (2h)
+  - 10º Eugénio de Sousa Magalhães - 2400 minutos (40h)
+  - 11º Eduardo Fernades Maciel - 480 minutos (8h)
+  - 12º Manuel Viera Cardoso": 3040 minutos (50h40m)
 
 ### Poça Ínsuas
 - **Início do ciclo**: Primeiro domingo de julho - 1 dia (sábado) às 21:00.
