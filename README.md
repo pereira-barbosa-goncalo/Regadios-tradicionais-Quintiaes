@@ -44,7 +44,7 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
   - Rigueira - Cândido - 12 horas
   - Rigueira - Domingos Coutinho - 12 horas
   - Sepeira - Silvério - 24 horas
-  - Ínssuas de baixo - 24 horas
+  - Ínssuas de baixo - Alfredo Silva - 24 horas
   - Rigueira - Ana do "Rua" - 24 horas
 
 O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de dezembro).
