@@ -38,7 +38,7 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
   - Rigueira - António Pereira - 36 horas
   - Pomar - Carlos Xavier - 12 horas
   - Rigueira - Rosa Machado - 12 horas
-  - Rigueira - Joaquim Lumbrem - 12 horas
+  - Rigueira - Joaquim Vale - 12 horas
   - Rigueira - Nídia - 12 horas
   - Rigueira - Domingos Coutinho - 12 horas
   - Compra - Rosa Machado - 12 horas
