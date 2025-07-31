@@ -29,7 +29,7 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
   - 11º Eduardo Fernades Maciel - 480 minutos (8h)
   - 12º Manuel Viera Cardoso": 3040 minutos (50h40m)
 
-### Poça Ínsuas
+### Poça Insuas
 - **Início do ciclo**: Primeiro domingo de julho, mas no sábado às 21:00.
 - **Unidades de tempo**: Horas.
 - **Ciclo composto por**: Múltiplos turnos com durações entre 12 e 36 horas.
@@ -44,7 +44,7 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
   - Rigueira - Cândido - 12 horas
   - Rigueira - Domingos Coutinho - 12 horas
   - Sepeira - Silvério - 24 horas
-  - Ínssuas de baixo - Alfredo Silva - 24 horas
+  - Insuas de baixo - Alfredo Silva - 24 horas
   - Rigueira - Ana do "Rua" - 24 horas
 
 O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de dezembro).
