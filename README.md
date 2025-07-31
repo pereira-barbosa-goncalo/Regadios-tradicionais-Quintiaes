@@ -1,7 +1,8 @@
 # Regadios Tradicionais de Quintiães
 
 ## Descrição Geral
-Este repositório contém um script Python (`pocas.py`) que implementa um sistema de consulta e exportação de turnos para as poças, automatizando a gestão dos tempos atribuídos a cada consorte ao longo do calendário anual. É uma ferramenta orientada a comunidades rurais ou entidades gestoras que necessitam de planificar de forma rigorosa a utilização partilhada de recursos hídricos. Agora também é possível adquirir um executável (`pocas_app.exe`) de modo a remover a necessidade de leitura de python
+Este repositório contém um script Python (`pocas.py`) que implementa um sistema de consulta e exportação de turnos para as poças, automatizando a gestão dos tempos atribuídos a cada consorte ao longo do calendário anual. É uma ferramenta orientada a comunidades rurais ou entidades gestoras que necessitam de planificar de forma rigorosa a utilização partilhada de recursos hídricos. Agora também é possível adquirir um executável (`pocas_app.exe`) de modo a remover a necessidade de leitura de python.
+A ferramenta está disponivel online https://regadios-tradicionais-quintiaes.onrender.com
 
 ### Funcionalidades
 - Listar consortes e respetivos turnos, com cálculo preciso das datas e horas de início/fim.
