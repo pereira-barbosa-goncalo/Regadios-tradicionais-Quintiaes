@@ -83,7 +83,7 @@ def proxima_segunda_mais_proxima():
 
 #---------------------------selecionar a poça
 
-pocas={"Javid":0, "Ínsuas":1}
+pocas={"Javid":0, "Insuas":1}
 
 def get_poca():
     #time.sleep(0.5)
@@ -246,10 +246,10 @@ horas_insuas = {
     "nome da terra - Nídia":12,
     "Rigueira - Domingos Aurélio":12,
     "Compra - Rosa": 12,
-    "nome da terra - Cândido":12,
-    "nome da terra - Domingos Aurélio":12,
+    "Rigueira - Cândido":12,
+    "Rigueira - Domingos Aurélio":12,
     "Sepeira - Silvério": 24,  
-    "Terras da ínssua de baixo - Madanelo": 24,
+    "Terras da Insua de baixo - Madanelo": 24,
     "Rigueira - Fondecescas":24,  
 }
 
