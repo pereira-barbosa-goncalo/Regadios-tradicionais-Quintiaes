@@ -1,15 +1,16 @@
 # Regadios Tradicionais de Quintiães
 
 ## Descrição Geral
-Este repositório contém um script Python (`pocas.py`) que implementa um sistema de consulta e exportação de turnos para as poças, automatizando a gestão dos tempos atribuídos a cada consorte ao longo do calendário anual. É uma ferramenta orientada a comunidades rurais ou entidades gestoras que necessitam de planificar de forma rigorosa a utilização partilhada de recursos hídricos. Agora também é possível adquirir um executável (`pocas_app.exe`) de modo a remover a necessidade de leitura de python.
-A ferramenta está disponivel online https://regadios-tradicionais-quintiaes.onrender.com
+Neste repositório está presente todos os elementos para intreptação dos dados existentes sobre os regadios tradicionais de Quintiães num formato automatizado removendo a necessidade de cálculos externos.
+Este repositório contém um script Python (`pocas.py`) que implementa um sistema de consulta e exportação de turnos para os regadios, a gestão dos tempos atribuídos a cada consorte ao longo do calendário anual. Agora também é possível adquirir um executável (`pocas_app.exe`) de modo a remover a necessidade de leitura de python.
+De momento está disponivel online https://regadios-tradicionais-quintiaes.onrender.com num formato mais simples a consulta de consortes. 
 
 ### Funcionalidades
 - Listar consortes e respetivos turnos, com cálculo preciso das datas e horas de início/fim.
 - Consultar qual consorte está ativo num determinado dia/hora.
-- Exportar os turnos para ficheiros CSV, para posterior análise ou integração noutros sistemas.
+- Exportar os turnos para ficheiros CSV, para posterior análise ou integração noutros sistemas. Só para (`pocas.py`) e (`pocas_app.exe`)
 
-Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada consorte, iniciando-se em datas específicas do ano (definidas conforme a tradição ou regras locais). O código está estruturado para suportar facilmente outras poças ou alterações nos tempos de consórcio.
+Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada consorte, iniciando-se em datas específicas do ano (definidas conforme a tradição ou regras locais).
 
 ## Estrutura do Cálculo para as Poças já Implementadas
 
@@ -56,7 +57,7 @@ O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de de
 - Listar a um específico consorte (escolhido pelo utilizador) os tempos que este toma posse e devolve em todos os ciclos. Com a possibilidade de exportar para CSV.
 - Consulta do consorte que tem a posse quando é escolhido o dia e a hora.
 
-## Requisitos
+## Requisitos para ficheiro (`pocas.py`)
 - Python 3.8+
 - Bibliotecas:
   - `datetime` (padrão)
@@ -68,7 +69,7 @@ O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de de
 - As datas de início dos ciclos são calculadas dinamicamente com base no ano atual.
 
 ## Conclusão
-Este sistema elimina a necessidade de cálculos manuais dos turnos de consortes e oferece uma solução confiável e repetível para comunidades que partilham poças ou outros recursos comuns. A sua simplicidade torna-o ideal para implementação local, sem necessidade de infraestrutura complexa.
+Este projeto tem a capacidade de assegurar a longevidade do conhecimento tradicional do patrimônio imaterial que são os sistemas de regadio tradicional ao preservar o funcionamento da gestão do tempo de cada consorte
 
 ## Referências
 
