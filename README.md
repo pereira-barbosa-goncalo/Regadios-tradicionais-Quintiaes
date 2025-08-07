@@ -71,6 +71,11 @@ O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de de
 ## Conclusão
 Este projeto tem a capacidade de assegurar a longevidade do conhecimento tradicional do patrimônio imaterial que são os sistemas de regadio tradicional ao preservar o funcionamento da gestão do tempo de cada consorte
 
+## Em desenvolvimento
+Os regadios tradicionais em desenvolvimento são
+  - Amaral
+  - Cal
+
 ## Referências
 
 - **Autor**: Gonçalo Pereira
