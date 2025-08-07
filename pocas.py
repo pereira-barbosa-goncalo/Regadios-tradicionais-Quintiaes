@@ -243,18 +243,18 @@ def get_javid():
 #---------------------------selecionar a poça Ínsuas
 
 horas_insuas = {
-    "Terras de Fate - David":36,
+    "Terras de Fate - David Fernandes":36,
     "Rigueira - António Pereira": 36,
     "Pomar - Carlos Xavier":12,
     "Rigueira - Rosa":12,
     "Rigueira - Joaquim Vale": 12,
     "nome da terra - Nídia":12,
-    "Rigueira - Domingos Coutinho":12,
-    "Compra - Rosa": 12,
+    "Rigueira - António Maciel":12,
+    "Compra - Rosa Machado": 12,
     "Rigueira - Cândido":12,
-    "Rigueira - Domingos Coutinho":12,
+    "Rigueira - António Maciel":12,
     "Sepeira - Silvério": 24,  
-    "Terras da Insua de baixo - Madanelo": 24,
+    "Terras da Insua de baixo - Alfredo Pereira": 24,
     "Rigueira - Fondecescas":24,  
 }
 
@@ -393,3 +393,4 @@ else:
 
 
 #Made in Quintiães
+
