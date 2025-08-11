@@ -12,9 +12,9 @@ De momento está disponivel online https://regadios-tradicionais-quintiaes.onren
 
 Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada consorte, iniciando-se em datas específicas do ano (definidas conforme a tradição ou regras locais).
 
-## Estrutura do Cálculo para as Poças já Implementadas
+## Estrutura do Cálculo para os Regadio já Implementados
 
-### Poça Javid
+### Regadio de Javid
 - **Início do ciclo**: Terça-feira mais próxima de 29 de junho às 21:10.
 - **Unidades de tempo**: Minutos.
 - **Ciclo composto por**: 12 turnos de duração variável.
@@ -31,7 +31,7 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
   - 11º Eduardo Fernades Maciel - 480 minutos (8h)
   - 12º Manuel Viera Cardoso": 3040 minutos (50h40m)
 
-### Poça Insuas
+### Regadio da Insua
 - **Início do ciclo**: Primeiro domingo de julho, mas no sábado às 21:00.
 - **Unidades de tempo**: Horas.
 - **Ciclo composto por**: Múltiplos turnos com durações entre 12 e 36 horas.
@@ -52,7 +52,7 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
 O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de dezembro).
 
 ## Funcionalidades Principais
-- O utilizador escolhe a poça.
+- O utilizador escolhe a regadio.
 - Consultar Consortes.
 - Listar a um específico consorte (escolhido pelo utilizador) os tempos que este toma posse e devolve em todos os ciclos. Com a possibilidade de exportar para CSV.
 - Consulta do consorte que tem a posse quando é escolhido o dia e a hora.
