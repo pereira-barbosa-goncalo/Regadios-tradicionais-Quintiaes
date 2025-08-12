@@ -311,19 +311,23 @@ def get_insua():
 #---------------------------selecionar a poça Amaral
 
 horas_amaral = {
-    "António Silva":12,
+    "António Silva":12, # **António Monteiro**
+    "Nídia": 0,
     "Zé da Loba": 0,
     "Outra Pessoa":0,
     "Freitas":0,
-    "António Monteiro": 24,
+    "António Monteiro": 24, # **António Monteiro**
     "Silvério Castro":0,
     "Outra Pessoa":0,
+    "1º Tia Candinha": 7+2/3, #sábado de manhã (~=6h) até 13h40m **Tia Candinha**
+    "Joaquim Rego": 16+1/3, # **Tia Candinha**
+    "2º Tia Candinha": 10+2/3, #domingo de manhã (~=6h) até 16h40m **Tia Candinha**
+    "Zé da Loba": 0,
     "Madanelo": 0,
     "Joaquim Monteiro":0,
-    "Alice Martins":0,
-    "Tia Candinha": 0,  
+    "Alice Martins":0,  
     "Azevedo": 0,
-    "Outra Pessoa":334,  
+    "Outra Pessoa":300-1/3,  
 }
 
 def get_amaral():
@@ -393,4 +397,5 @@ else:
 
 
 #Made in Quintiães
+
 
