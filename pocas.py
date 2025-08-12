@@ -318,7 +318,6 @@ horas_amaral = {
     "Freitas":0,
     "António Monteiro": 24, # **António Monteiro**
     "Silvério Castro":0,
-    "Outra Pessoa":0,
     "1º Tia Candinha": 7+2/3, #sábado de manhã (~=6h) até 13h40m **Tia Candinha**
     "Joaquim Rego": 16+1/3, # **Tia Candinha**
     "2º Tia Candinha": 10+2/3, #domingo de manhã (~=6h) até 16h40m **Tia Candinha**
@@ -397,5 +396,6 @@ else:
 
 
 #Made in Quintiães
+
 
 
