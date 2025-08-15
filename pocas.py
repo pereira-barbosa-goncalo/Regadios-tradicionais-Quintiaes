@@ -337,7 +337,7 @@ horas_amaral = {
     "Azevedo": 0,
     "Outra Pessoa":300-1/3,  
 }
-print(horas_amaral)
+
 def get_amaral():
     print("Selecione a opção:")
     print("0: Ver consortes e suas respetivas horas")
@@ -403,7 +403,7 @@ horas_cal = {
     "Mendanha 2º": 9, # Verificar nos papeis altera-se a ordem entre Mendanha 2º e Isabel 2º
     "Isabel 2º": 15,  # Verificar
 }
-print(horas_cal)
+
 def get_cal():
     print("Selecione a opção:")
     print("0: Ver consortes e suas respetivas horas")
@@ -475,4 +475,5 @@ else:
 
 
 #Made in Quintiães
+
 
