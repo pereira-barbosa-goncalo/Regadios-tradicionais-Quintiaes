@@ -92,7 +92,7 @@ Os regadios tradicionais em desenvolvimento são:
     - António Monteiro 
     - Candinha Machado 
     - Amélia Silva
-    - Albertina Silva --!>
+    - Albertina Silva -->
 
 ## Citação
 Na publicação deste software, é favor citar de acordo com o documento [CITATION](citação) presente neste repositório ou de acordo com os seguintes exemplos:
