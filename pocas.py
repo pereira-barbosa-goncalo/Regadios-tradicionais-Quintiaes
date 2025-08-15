@@ -439,7 +439,7 @@ def get_cal():
 
         # Determina o consorte
         acumulado = 0
-        for nome, tempo in horas_amaral.items():
+        for nome, tempo in horas_cal.items():
             acumulado += tempo
             if horas_no_ciclo < acumulado:
                 print(f"Neste momento ({data_hora}), o consorte é: {nome}")
@@ -475,5 +475,6 @@ else:
 
 
 #Made in Quintiães
+
 
 
