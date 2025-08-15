@@ -38,6 +38,14 @@ def primeiro_domingo_julho():
         if data.weekday() == 6:  # 6 = domingo
             return data
 
+def primeiro_domingo_junho():
+    ano = datetime.date.today().year
+    # Começa no dia 1 de junho
+    for dia in range(1, 8):
+        data = datetime.date(ano, 6, dia)
+        if data.weekday() == 6:  # 6 = domingo
+            return data
+
 def proxima_terca_mais_proxima():
     hoje = datetime.date.today()
     ano = hoje.year
@@ -89,7 +97,7 @@ def proxima_segunda_mais_proxima_antes():
 
 #---------------------------selecionar a poça
 
-pocas={"Javid":0, "Insuas":1, "Amaral":2}
+pocas={"Javid":0, "Insuas":1, "Amaral":2,"Cal":3}
 
 def get_poca():
     #time.sleep(0.5)
@@ -318,6 +326,7 @@ horas_amaral = {
     "Freitas":0,
     "António Monteiro": 24, # **António Monteiro**
     "Silvério Castro":0,
+    "Outra Pessoa":0,
     "1º Tia Candinha": 7+2/3, #sábado de manhã (~=6h) até 13h40m **Tia Candinha**
     "Joaquim Rego": 16+1/3, # **Tia Candinha**
     "2º Tia Candinha": 10+2/3, #domingo de manhã (~=6h) até 16h40m **Tia Candinha**
@@ -328,7 +337,7 @@ horas_amaral = {
     "Azevedo": 0,
     "Outra Pessoa":300-1/3,  
 }
-
+print(horas_amaral)
 def get_amaral():
     print("Selecione a opção:")
     print("0: Ver consortes e suas respetivas horas")
@@ -377,6 +386,74 @@ def get_amaral():
                 return nome
         print("Nenhum consorte encontrado para esse momento.")
 
+#---------------------------selecionar a poça Cal
+
+horas_cal = {
+    "Joaquim Aurélio 1º":18, 
+    "Emélia Rocha": 6,
+    "Isabel 1º": 0, #Verificar ** Isabel e Nuno são iguais 
+    "Nuno":0, #Verificar ** Isabel e Nuno são iguais
+    "Mendanha 1º":15,
+    "Monteiro": 24, 
+    "Salvador":15,
+    "Maria Cancela":9,
+    "Joaquim Aurélio 2º": 9, 
+    "Cândido Fontainha": 15,
+    "Alfredo Machado":0, # Verificar o tempo
+    "Mendanha 2º": 9, # Verificar nos papeis altera-se a ordem entre Mendanha 2º e Isabel 2º
+    "Isabel 2º": 15,  # Verificar
+}
+print(horas_cal)
+def get_cal():
+    print("Selecione a opção:")
+    print("0: Ver consortes e suas respetivas horas")
+    print("1: Consultar consorte por dia e hora")
+    resposta = int(input("Digite o número da opção: "))
+    if resposta==0:
+        print("Consultando consortes da poça de Cal...")
+        ano = datetime.date.today().year
+        inicio_data = primeiro_domingo_junho()
+        inicio = datetime.datetime(ano, inicio_data.month, inicio_data.day, 21, 10)
+        fim = datetime.datetime(ano, 12, 31, 23, 59)
+        listar_consortes(horas_cal, inicio, unidade="hours")
+    elif resposta==1:
+        # Usuário escolhe dia e hora (sem ano)
+        dia_str = input("Digite o dia (dd): ")
+        mes_str = input("Digite o mês (mm): ")
+        hora_str = input("Digite a hora (hh:mm): ")
+        ano = datetime.date.today().year  # sempre o ano atual
+        data_hora = datetime.datetime.strptime(f"{dia_str}/{mes_str}/{ano} {hora_str}", "%d/%m/%Y %H:%M")
+        
+        # Data de início: 1º Domingo de julho, 00:00 do ano atual
+        inicio_data = primeiro_domingo_junho()
+        inicio = datetime.datetime(ano, inicio_data.month, inicio_data.day, 21, 10)
+        fim = datetime.datetime(ano, 12, 31, 23, 59)
+        if not (inicio <= data_hora <= fim):
+            print(f"Data fora do intervalo válido ( {inicio_data.day} de {inicio_data.month} a 31 de dezembro).")
+            return None
+
+        horas_decorridas = int((data_hora - inicio).total_seconds() // 3600)
+        total_ciclo = sum(horas_cal.values())
+        horas_no_ciclo = horas_decorridas % total_ciclo  # ciclo se repete
+        ciclos_completos = horas_decorridas // total_ciclo
+
+        # Determina o consorte
+        acumulado = 0
+        for nome, tempo in horas_amaral.items():
+            acumulado += tempo
+            if horas_no_ciclo < acumulado:
+                print(f"Neste momento ({data_hora}), o consorte é: {nome}")
+                # Stats do consorte
+                #inicio_turno = inicio + datetime.timedelta(hours=ciclos_completos * total_ciclo + acumulado)
+                inicio_turno = inicio + datetime.timedelta(hours=ciclos_completos * total_ciclo + (acumulado - tempo))
+                fim_turno = inicio_turno + datetime.timedelta(hours=tempo)
+                print(f"Início do turno: {inicio_turno.strftime('%d/%m/%Y %H:%M')}")
+                print(f"Fim do turno:    {fim_turno.strftime('%d/%m/%Y %H:%M')}")
+                return nome
+        print("Nenhum consorte encontrado para esse momento.")
+
+
+
 #---------------------------start do programa
 print("Bem-vindo ao sistema de consortes das poças!")
 #time.sleep(1)
@@ -391,11 +468,11 @@ elif escolhida == "Ínsuas":
     get_insua()
 elif escolhida == "Amaral":
     get_amaral()
+elif escolhida == "Cal":
+    get_cal()
 else:
     print("Poça inválida selecionada.")
 
 
 #Made in Quintiães
-
-
 
