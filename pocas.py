@@ -389,31 +389,34 @@ def get_amaral():
 #---------------------------selecionar a poça Cal
 
 horas_cal = {
-    "1ªs Joaquim Aurélio 1º":18, 
-    "1ªs Emélia Rocha": 6,
-    "1ªs Isabel 1º": 4+1/2, 
-    "1ªs Nuno":4+1/2,
-    "1ªs Mendanha 1º":15,
-    "1ªs Monteiro": 24, 
-    "1ªs Salvador":15,
-    "1ªs Maria Cancela":9,
-    "1ªs Joaquim Aurélio 2º": 9, 
-    "1ªs Cândido Fontainha": 15, 
-    "1ªs Mendanha 2º": 9, 
-    "1ªs Isabel 2º": 15,  
-    "2ªs Joaquim Aurélio 1º":18, 
-    "2ªs Emélia Rocha": 6,
-    "2ªs Mendanha 1º":9,
-    "2ªs Isabel 1º": 7+1/2, 
-    "2ªs Nuno":7+1/2,
-    "2ªs Alfredo Machado":0,
-    "2ªs Monteiro": 15, 
-    "2ªs Salvador":15,
-    "2ªs Maria Cancela":9,
-    "2ªs Cândido Fontainha": 9,
-    "2ªs Joaquim Aurélio 2º": 9,
-    "2ªs Isabel 2º": 24,
-    "2ªs Mendanha 2º": 15,
+    #1ª semana
+    "1ªs Joaquim Aurélio 1º":18, # 21:10->15:10 = 18h domingo->segunda
+    "1ªs Emélia Rocha": 6, # 15:10->21:10 = 6h segunda->segunda
+    "1ªs Isabel 1º": 4+1/2, #4h:30 ou 21:10->1:40 segunda-terça
+    "1ªs Nuno":4+1/2, # 4h:30 0u 1:40->6:10 terça->terça
+    "1ªs Mendanha 1º":15, # 6:10->21:10 terça->terça
+    "1ªs Monteiro": 24, #terça 21:10->quarta 21:10
+    "1ªs Salvador":15, # quarta 21:10-> quinta 12:10
+    "1ªs Maria Cancela":9, # quinta 12:10-> quinta 21:10
+    "1ªs Joaquim Aurélio 2º": 9, #quinta 21:10-> sexta 6:10
+    "1ªs Cândido Fontainha": 15, # sexta 6:10 -> sábado 21:10
+    "1ªs Mendanha 2º": 9, # sábado 21:10 -> domingo 6:10
+    "1ªs Isabel 2º": 15,  # domingo 6:10 -> domingo 21:10 (:
+    #2ª semana
+    "2ªs Joaquim Aurélio 1º":18, #domingo 21:10 -> segunda 15:10
+    "2ªs Emélia Rocha": 6, # segunda 15:10 -> segunda 21:10
+    "2ªs Mendanha 1º":9, # segunda 21:10 -> terça 6:10
+    "2ªs Isabel 1º": 7+1/2, # terça 6:10 -> terça 13.40 
+    "2ªs Nuno":7+1/2, # terça 13:40 -> terça 21:10
+    "2ªs Alfredo Machado":0, #-> falta 9h o que faltava da terça 21:10 -> quarta 6:10
+    "2ªs Monteiro": 15, #quarta 6:10 -> quarta 21:10
+    "2ªs Salvador":15, # quarta 21:10 -> quinta 12:10
+    "2ªs Maria Cancela":9, # quinta 12:10 -> quinta 21:10
+    "2ªs Cândido Fontainha": 9, # quinta 21:10 -> sexta 6:10 
+    "2ªs ":0, # falta 15h30m sexta 6:10 -> sábado 13:40
+    "2ªs Joaquim Aurélio 2º": 9, # sexta 13:40 -> sábado 6:10
+    "2ªs Isabel 2º": 24, # sábado 6:10 -> domingo 6:10
+    "2ªs Mendanha 2º": 15, # domingo 6:10 -> domingo 21:10
 }
 
 def get_cal():
@@ -487,6 +490,7 @@ else:
 
 
 #Made in Quintiães
+
 
 
 
