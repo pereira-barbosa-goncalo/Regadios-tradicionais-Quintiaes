@@ -399,7 +399,7 @@ horas_cal = {
     "1ªs Salvador":15, # quarta 21:10-> quinta 12:10
     "1ªs Maria Cancela":9, # quinta 12:10-> quinta 21:10
     "1ªs Joaquim Aurélio 2º": 9, #quinta 21:10-> sexta 6:10
-    "1ªs Cândido Fontainha": 15, # sexta 6:10 -> sábado 21:10
+    "1ªs Cândido Fontainha": 39, # sexta 6:10 -> sábado 21:10                                   *** Muitas horas ***
     "1ªs Mendanha 2º": 9, # sábado 21:10 -> domingo 6:10
     "1ªs Isabel 2º": 15,  # domingo 6:10 -> domingo 21:10 (:
     #2ª semana
@@ -408,13 +408,13 @@ horas_cal = {
     "2ªs Mendanha 1º":9, # segunda 21:10 -> terça 6:10
     "2ªs Isabel 1º": 7+1/2, # terça 6:10 -> terça 13.40 
     "2ªs Nuno":7+1/2, # terça 13:40 -> terça 21:10
-    "2ªs Alfredo Machado":0, #-> falta 9h o que faltava da terça 21:10 -> quarta 6:10
+    "2ªs Alfredo Machado":9, #-> falta 9h o que faltava da terça 21:10 -> quarta 6:10        ***Verificar se é ou quem é*** 
     "2ªs Monteiro": 15, #quarta 6:10 -> quarta 21:10
     "2ªs Salvador":15, # quarta 21:10 -> quinta 12:10
     "2ªs Maria Cancela":9, # quinta 12:10 -> quinta 21:10
     "2ªs Cândido Fontainha": 9, # quinta 21:10 -> sexta 6:10 
-    "2ªs ":0, # falta 7h30m sexta 6:10 -> sábado 13:40
-    "2ªs Joaquim Aurélio 2º": 9, # sexta 13:40 -> sábado 6:10
+    "2ªs ":7+(1/2), # falta 7h30m sexta 6:10 -> sexta 13:40                                    *** Não sei quem é ***
+    "2ªs Joaquim Aurélio 2º": 16+(1/2), # sexta 13:40 -> sábado 6:10                            *** Muitas horas ***
     "2ªs Isabel 2º": 24, # sábado 6:10 -> domingo 6:10
     "2ªs Mendanha 2º": 15, # domingo 6:10 -> domingo 21:10
 }
@@ -490,6 +490,7 @@ else:
 
 
 #Made in Quintiães
+
 
 
 
