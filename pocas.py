@@ -389,19 +389,31 @@ def get_amaral():
 #---------------------------selecionar a poça Cal
 
 horas_cal = {
-    "Joaquim Aurélio 1º":18, 
-    "Emélia Rocha": 6,
-    "Isabel 1º": 0, #Verificar ** Isabel e Nuno são iguais 
-    "Nuno":0, #Verificar ** Isabel e Nuno são iguais
-    "Mendanha 1º":15,
-    "Monteiro": 24, 
-    "Salvador":15,
-    "Maria Cancela":9,
-    "Joaquim Aurélio 2º": 9, 
-    "Cândido Fontainha": 15,
-    "Alfredo Machado":0, # Verificar o tempo
-    "Mendanha 2º": 9, # Verificar nos papeis altera-se a ordem entre Mendanha 2º e Isabel 2º
-    "Isabel 2º": 15,  # Verificar
+    "1ªs Joaquim Aurélio 1º":18, 
+    "1ªs Emélia Rocha": 6,
+    "1ªs Isabel 1º": 4+1/2, 
+    "1ªs Nuno":4+1/2,
+    "1ªs Mendanha 1º":15,
+    "1ªs Monteiro": 24, 
+    "1ªs Salvador":15,
+    "1ªs Maria Cancela":9,
+    "1ªs Joaquim Aurélio 2º": 9, 
+    "1ªs Cândido Fontainha": 15, 
+    "1ªs Mendanha 2º": 9, 
+    "1ªs Isabel 2º": 15,  
+    "2ªs Joaquim Aurélio 1º":18, 
+    "2ªs Emélia Rocha": 6,
+    "2ªs Mendanha 1º":9,
+    "2ªs Isabel 1º": 7+1/2, 
+    "2ªs Nuno":7+1/2,
+    "2ªs Alfredo Machado":0,
+    "2ªs Monteiro": 15, 
+    "2ªs Salvador":15,
+    "2ªs Maria Cancela":9,
+    "2ªs Cândido Fontainha": 9,
+    "2ªs Joaquim Aurélio 2º": 9,
+    "2ªs Isabel 2º": 24,
+    "2ªs Mendanha 2º": 15,
 }
 
 def get_cal():
@@ -475,6 +487,7 @@ else:
 
 
 #Made in Quintiães
+
 
 
 
