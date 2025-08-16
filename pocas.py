@@ -413,7 +413,7 @@ horas_cal = {
     "2ªs Salvador":15, # quarta 21:10 -> quinta 12:10
     "2ªs Maria Cancela":9, # quinta 12:10 -> quinta 21:10
     "2ªs Cândido Fontainha": 9, # quinta 21:10 -> sexta 6:10 
-    "2ªs ":0, # falta 6h30m sexta 6:10 -> sábado 13:40
+    "2ªs ":0, # falta 7h30m sexta 6:10 -> sábado 13:40
     "2ªs Joaquim Aurélio 2º": 9, # sexta 13:40 -> sábado 6:10
     "2ªs Isabel 2º": 24, # sábado 6:10 -> domingo 6:10
     "2ªs Mendanha 2º": 15, # domingo 6:10 -> domingo 21:10
@@ -490,6 +490,7 @@ else:
 
 
 #Made in Quintiães
+
 
 
 
