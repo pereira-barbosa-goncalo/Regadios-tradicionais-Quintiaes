@@ -104,7 +104,6 @@ Este projeto tem a capacidade de assegurar a longevidade do conhecimento tradici
 ## Em desenvolvimento
 Os regadios tradicionais em desenvolvimento são:
   - Amaral
-  - Cal
 
 ## Referências
 
