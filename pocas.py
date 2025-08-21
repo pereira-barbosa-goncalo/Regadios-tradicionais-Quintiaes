@@ -333,7 +333,9 @@ horas_amaral = {
     "Zé da Loba": 0,
     "Madanelo": 0,
     "Joaquim Monteiro":0,
-    "Alice Martins":0,  
+    "Alice Martins":15, # domingo de dia nascer->por
+    "Alice Martins":15, # sexta de dia nascer->por
+    "Alice Martins":9,  # noite de quinta->sexta por->nascer  
     "Azevedo": 0,
     "Outra Pessoa":300-1/3,  
 }
@@ -490,6 +492,7 @@ else:
 
 
 #Made in Quintiães
+
 
 
 
