@@ -49,6 +49,36 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
   - Insuas de baixo - Alfredo Silva - 24 horas
   - Rigueira - Ana do "Rua" - 24 horas
 
+### Regadio da Cal
+- **Início do ciclo**: Primeiro domingo de junho.
+- **Unidades de tempo**: Horas.
+- **Ciclo composto por**: Múltiplos turnos com durações variáveis.
+    - 1ª semana Joaquim Aurélio 1º - 18 horas
+    - 1ª semana Emélia Rocha - 6 horas
+    - 1ª semana Isabel 1º - 4 horas e 30 minutos
+    - 1ª semana Nuno - 4 horas e 30 minutos
+    - 1ª semana Mendanha 1º - 15 horas
+    - 1ª semana Monteiro - 24 horas
+    - 1ª semana Salvador - 15 horas
+    - 1ª semana Maria Cancela - 9 horas
+    - 1ª semana Joaquim Aurélio 2º - 9 horas
+    - 1ª semana Cândido Fontainha - 39 horas
+    - 1ª semana Mendanha 2º - 9 horas
+    - 1ª semana Isabel 2º - 15 horas
+    - 2ª semana Joaquim Aurélio 1º - 18 horas
+    - 2ª semana Emélia Rocha - 6 horas
+    - 2ª semana Mendanha 1º - 9 horas
+    - 2ª semana Isabel 1º - 7 horas e 30 minutos 
+    - 2ª semana Nuno - 7 horas e 30 minutos
+    - 2ª semana Alfredo Machado - 9 horas 
+    - 2ª semana Monteiro - 15 horas
+    - 2ª semana Salvador - 15 horas
+    - 2ª semana Maria Cancela - 9 horas
+    - 2ª semana Cândido Fontainha - 9 horas 
+    - 2ª semana Desconhecido - 7 horas e 30 minutos
+    - 2ª semana Joaquim Aurélio 2º - 16 horas e 30 minutos
+    - 2ª semana Isabel 2º - 24 horas
+    - 2ª semana Mendanha 2º - 15 horas
 O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de dezembro).
 
 ## Funcionalidades Principais
