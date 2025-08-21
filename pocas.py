@@ -480,7 +480,7 @@ escolhida = get_poca()
 print(f"Você escolheu: {escolhida}")
 if escolhida == "Javid":
     get_javid()
-elif escolhida == "Ínsuas":
+elif escolhida == "Insuas":
     get_insua()
 elif escolhida == "Amaral":
     get_amaral()
@@ -491,6 +491,7 @@ else:
 
 
 #Made in Quintiães
+
 
 
 
