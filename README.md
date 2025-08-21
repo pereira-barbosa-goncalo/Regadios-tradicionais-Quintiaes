@@ -116,6 +116,8 @@ Os regadios tradicionais em desenvolvimento são:
     - Alfredo Silva
     - Maria Machado
     - Rosa Machado
+  - **Cal**
+    - Documentos apresentados na pasta `Regadio Cal`
 <!--
   - **Amaral**:
     - António Monteiro 
