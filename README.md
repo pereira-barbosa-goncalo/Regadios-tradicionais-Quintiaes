@@ -1,5 +1,9 @@
 # Regadios Tradicionais de Quintiães
 
+## O que é?
+
+Este site funciona é um repositório, reunindo todos os dados do projeto, de modo a possibilitar a sua replicação, consulta e a assegurar a transparência do trabalho realizado. O projeto *Regadios Tradicionais de Quintiães* constitui um verdadeiro “livro” do conhecimento existente sobre a gestão da água em cada regadio, tendo como principal objeto de estudo o tempo de gestão da água atribuído a cada consorte 
+
 ## Descrição Geral
 Neste repositório está presente todos os elementos para intreptação dos dados existentes sobre os regadios tradicionais de Quintiães num formato automatizado removendo a necessidade de cálculos externos.
 Este repositório contém um script Python (`pocas.py`) que implementa um sistema de consulta e exportação de turnos para os regadios, a gestão dos tempos atribuídos a cada consorte ao longo do calendário anual. Agora também é possível adquirir um executável (`pocas_app.exe`) de modo a remover a necessidade de leitura de python.
