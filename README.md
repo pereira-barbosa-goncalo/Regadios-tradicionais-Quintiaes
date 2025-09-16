@@ -127,7 +127,7 @@ Os regadios tradicionais em desenvolvimento são:
 <!--
   - **Amaral**:
     - António Monteiro 
-    - Candinha Machado 
+    - Cândida Machado 
     - Amélia Silva
     - Albertina Silva -->
 
