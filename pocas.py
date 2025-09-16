@@ -253,7 +253,7 @@ def get_javid():
 horas_insuas = {
     "Terras de Fate - David Fernandes":36,
     "Rigueira - António Pereira": 36,
-    "Pomar - Carlos Xavier":12,
+    "Pomar - Carlos Costa":12,
     "Rigueira - Rosa":12,
     "Rigueira - Joaquim Vale": 12,
     "nome da terra - Nídia":12,
@@ -491,13 +491,4 @@ else:
 
 
 #Made in Quintiães
-
-
-
-
-
-
-
-
-
 
