@@ -6,8 +6,10 @@ Este site funciona é um repositório, reunindo todos os dados do projeto, de mo
 
 ## Descrição Geral
 Neste repositório está presente todos os elementos para intreptação dos dados existentes sobre os regadios tradicionais de Quintiães num formato automatizado removendo a necessidade de cálculos externos.
-Este repositório contém um script Python (`pocas.py`) que implementa um sistema de consulta e exportação de turnos para os regadios, a gestão dos tempos atribuídos a cada consorte ao longo do calendário anual. Agora também é possível adquirir um executável (`pocas_app.exe`) de modo a remover a necessidade de leitura de python.
-De momento está disponivel online https://regadios-tradicionais-quintiaes.onrender.com num formato mais simples a consulta de consortes. 
+Este repositório contém:
+- um script Python (`pocas.py`) que implementa um sistema de consulta e exportação de turnos para os regadios, a gestão dos tempos atribuídos a cada consorte ao longo do calendário anual.
+- um executável (`pocas_app.exe`) de modo a remover a necessidade de leitura de python.
+- online https://regadios-tradicionais-quintiaes.onrender.com num formato mais simples a consulta de consortes.
 
 ### Funcionalidades
 - Listar consortes e respetivos turnos, com cálculo preciso das datas e horas de início/fim.
