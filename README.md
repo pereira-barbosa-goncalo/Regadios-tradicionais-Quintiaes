@@ -2,14 +2,14 @@
 
 ## O que é?
 
-Este site funciona é um repositório, reunindo todos os dados do projeto, de modo a possibilitar a sua replicação, consulta e a assegurar a transparência do trabalho realizado. O projeto *Regadios Tradicionais de Quintiães* constitui um verdadeiro “livro” do conhecimento existente sobre a gestão da água em cada regadio, tendo como principal objeto de estudo o tempo de gestão da água atribuído a cada consorte 
+Este site é um repositório, reunindo todos os dados do projeto, de modo a possibilitar a sua replicação, consulta e a assegurar a transparência do trabalho realizado. O projeto *Regadios Tradicionais de Quintiães* constitui um verdadeiro “livro” do conhecimento existente sobre a gestão da água em cada regadio, tendo como principal objeto de estudo o tempo de gestão da água atribuído a cada consorte 
 
 ## Descrição Geral
 Neste repositório está presente todos os elementos para intreptação dos dados existentes sobre os regadios tradicionais de Quintiães num formato automatizado removendo a necessidade de cálculos externos.
 Este repositório contém:
 - um script Python (`pocas.py`) que implementa um sistema de consulta e exportação de turnos para os regadios, a gestão dos tempos atribuídos a cada consorte ao longo do calendário anual.
 - um executável (`pocas_app.exe`) de modo a remover a necessidade de leitura de python.
-- online https://regadios-tradicionais-quintiaes.onrender.com num formato mais simples a consulta de consortes.
+- online https://regadios-tradicionais-quintiaes.onrender.com com um formato mais simples a consulta de consortes.
 
 ### Funcionalidades
 - Listar consortes e respetivos turnos, com cálculo preciso das datas e horas de início/fim.
@@ -85,10 +85,11 @@ Todo o cálculo é baseado em ciclos predefinidos de tempos atribuídos a cada c
     - 2ª semana Joaquim Aurélio 2º - 16 horas e 30 minutos
     - 2ª semana Isabel 2º - 24 horas
     - 2ª semana Mendanha 2º - 15 horas
+
 O sistema suporta a repetição infinita dos ciclos até ao fim do ano (31 de dezembro).
 
 ## Funcionalidades Principais
-- O utilizador escolhe a regadio.
+- O utilizador escolhe o regadio.
 - Consultar Consortes.
 - Listar a um específico consorte (escolhido pelo utilizador) os tempos que este toma posse e devolve em todos os ciclos. Com a possibilidade de exportar para CSV.
 - Consulta do consorte que tem a posse quando é escolhido o dia e a hora.
