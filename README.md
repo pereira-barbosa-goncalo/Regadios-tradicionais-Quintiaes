@@ -135,7 +135,7 @@ Os regadios tradicionais em desenvolvimento são:
 ## Citação
 Na publicação deste software, é favor citar de acordo com o documento [CITATION](citação) presente neste repositório ou de acordo com os seguintes exemplos:
 ### formato APA
-Pereira, G. (2025). Sistema de Consulta dos regadios tradicionais de Quintiães (Version 1.0.3) [Computer software]. https://github.com/pereira-barbosa-goncalo/Regadios-tradicionais-Quintiaes
+Pereira, G. (2025). Sistema de Consulta dos regadios tradicionais de Quintiães (Version 1.5.0) [Computer software]. https://github.com/pereira-barbosa-goncalo/Regadios-tradicionais-Quintiaes
 ### formato BibTeX
 ```bibtex
 @software{Pereira_Sistema_de_Consulta_2025,
@@ -143,6 +143,6 @@ author = {Pereira, Gonçalo},
 month = aug,
 title = {{Sistema de Consulta dos regadios tradicionais de Quintiães}},
 url = {https://github.com/pereira-barbosa-goncalo/Regadios-tradicionais-Quintiaes},
-version = {1.0.3},
+version = {1.5.0},
 year = {2025}
 }
